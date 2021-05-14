@@ -1,5 +1,5 @@
 score = 0
-
+#Question will run as per normal
 answer1 = input("What was Minecraft's release date? \nA. 18 November 2011 \nB. 24 October 2010 \nC. 09 May 2012 \nAnswer : ")
 if answer1 == "A" or answer1 == "a" or answer1 == "18 November 2011":
     score += 1
@@ -10,19 +10,25 @@ else:
     print("Incorrect, The answer is 18 November 2011")
     print("Score: ", score)
     print("\n")
-
-def continueorgiveup():
+#Once the question is over, user will be asked if they want to leave the quiz
+def continueorgiveup():   
 
   first_time = input("Would you like leave the Quiz, Please answer Yes or No ")
 
   if first_time == "no":
     return ""
 
-  else:
+  else:    #This is the code if the person wants to leave the quiz
     print()
     print("Thank you for making it this far in the Quiz ")
     print("Your score is", score)
 continueorgiveup()
+
+
+
+
+
+
 
 
 
