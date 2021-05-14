@@ -1,8 +1,8 @@
 def instructions():
-
+#Asking the user if they want instructions
   first_time = input("Would you like to read the instructions? ")
 
-  if first_time == "no":
+  if first_time == "no": #If the user says no, the quiz will begin
     return ""
 
   else:
@@ -11,6 +11,6 @@ def instructions():
     print("You will be given a question with a choice of 3 answers.")
     print("Once you are satisfied with an answer, please select it by either entering A, B or C depending on the answer you have chosen.")
     print("The Quiz will then tell you if you're correct and then add it to your score, then the next question will begin.")
-    
+  #If the user says yes, instructions will show  
   
 instructions()
