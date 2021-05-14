@@ -1,12 +1,13 @@
 score = 0
-
+#Asking the user the question
 answer1 = input("What was Minecraft's release date? \nA. 18 November 2011 \nB. 24 October 2010 \nC. 09 May 2012 \nAnswer : ")
-if answer1 == "A" or answer1 == "a" or answer1 == "18 November 2011":
+if answer1 == "A" or answer1 == "a" or answer1 == "18 November 2011": 
     score += 1
-    print("Correct!")
+    print("Correct!")  #This is what will happen if they get the answer correct
     print("Score : ", score)
     print("\n")
 else:
     print("Incorrect, The answer is 18 November 2011")
     print("Score: ", score)
     print("\n")
+    #This is the code if the person gets the question wrong
